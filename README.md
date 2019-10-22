@@ -1,74 +1,249 @@
-# [Start Bootstrap - Stylish Portfolio](https://startbootstrap.com/template-overviews/stylish-portfolio/)
+<!DOCTYPE html>
+<html lang="en">
 
-[Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.
+  <head>
 
-## Preview
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-[![Stylish Portfolio Preview](https://startbootstrap.com/assets/img/templates/stylish-portfolio.jpg)](https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/)
+    <title>한국직업능력교육원 안산</title>
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/)**
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-## Status
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-stylish-portfolio/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-stylish-portfolio.svg)](https://www.npmjs.com/package/startbootstrap-stylish-portfolio)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-stylish-portfolio.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-stylish-portfolio)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-stylish-portfolio/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-stylish-portfolio)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-stylish-portfolio/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-stylish-portfolio?type=dev)
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
-## Download and Installation
+  </head>
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/stylish-portfolio/)
-* Install via npm: `npm i startbootstrap-stylish-portfolio`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio)
+  <body id="page-top">
 
-## Usage
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">홈페이지</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">구직자</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">문의 및 인터뷰</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#services">교직원 소개</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">교육과정</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#contact">오시는길</a>
+        </li>
+      </ul>
+    </nav>
 
-### Basic Usage
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h1 class="mb-1"><font color="white">한국직업능력교육원 <font size = "10">안산</font size = "10"></font color></h1>
+        <h3 class="mb-5">
+          <em><font color = "white">www.ktechedu.com/ansan</font color = "white"></em>
+        </h3>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="http://www.ktechedu.com/ansan">홈페이지 가기</a>
+      </div>
+      <div class="overlay"></div>
+    </header>
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>내일을 위한, 내 일을 준비하세요!</h2>
+            <p class="lead mb-5"> 안산 유일의 우수훈련기관 3년인증 한국직업능력교육원 안산
+              </p>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="http://www.ktechedu.com/ansan/course1/ingcourse.php?empkind=unemp">자세히보기</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-### Advanced Usage
+    <!-- Services -->
+    <section class="content-section bg-primary text-white text-center" id="services">
+      <div class="container">
+        <div class="content-section-heading">
+          <h3 class="text-secondary mb-0">Services</h3>
+          <h2 class="mb-5">What We Offer</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-user-follow"></i>
+            </span>
+            <h4>
+              <font size = "4">온라인 상담</font size>
+            </h4>
+      
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-pencil"></i>
+            </span>
+            <h4>
+              <font size = "4"><strong>간편문의</strong></font size>
+            </h4>
+            
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-like"></i>
+            </span>
+            <h4>
+               <font size = "4"><strong>수료생 인터뷰</strong></font size>
+            </h4>
+          
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-mustache"></i>
+            </span>
+            <h4>
+              <font size = "4"><strong>선생님 인터뷰</strong></font size>
+            </h4>
+            
+          </div>
+        </div>
+      </div>
+    </section>
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+    <!-- Callout -->
+    <section class="callout">
+      <div class="container text-center">
+        <h2 class="mx-auto mb-5">Let's introduce ourselves</h2>
+        <a class="btn btn-primary btn-xl" href="http://www.ktechedu.com/ansan/info/roster.php">교직원 소개</a>
+      </div>
+    </section>
 
-#### Gulp Tasks
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0"></h3>
+          <h2 class="mb-5">Curriculum</h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="img/portfolio-ma.jpg" target="_blank">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2></h2>
+                 
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-m.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="img/portfolio-ea.jpg" target="_blank">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>ERP과정</h2>
+                  <p class="mb-0">생산정보 & ERP, 생산관리실무자</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-e.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="img/portfolio-qa.jpg">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>품질관리</h2>
+                  <p class="mb-0">품질관리실무자 양성, 품질관리사무원</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-q.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="img/portfolio-sa.jpg">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>정보보안</h2>
+                  <p class="mb-0">정보보안(모의해킹)&사물인터넷(IOT)입문</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-s.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-- `gulp` the default task that builds everything
-- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
+    <!-- Call to Action -->
+    <section class="content-section bg-primary text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">내일배움카드</h2>
+        <a href="http://www.hrd.go.kr/hrdp/gi/pgibo/PGIBO0100T.do" class="btn btn-xl btn-light mr-4">구직자</a>
+        <a href="http://www.hrd.go.kr/hrdp/gi/pgico/PGICO0200T.do" class="btn btn-xl btn-dark">근로자</a>
+      </div>
+    </section>
 
-You must have npm and Gulp installed globally on your machine in order to use these features.
+    <!-- Map -->
+    <section id="contact" class="map">
+      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.kr/maps?f=q&amp;source=s_q&amp;hl=kr&amp;geocode=&amp;q=한국직업능력교육원안산,+Market+Street,경기도 안산시 단원구 예술대학로,+CA&amp;aq=0&amp;oq=twitter&amp;sll=37.3185944,126.8363807&amp;sspn=37.3185944,126.8363807&amp;ie=UTF8&amp;hq=한국직업능력교육원안산,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;21z&amp;iwloc=A&amp;output=embed"></iframe>
+      <br/>
+    </section>
 
-## Troubleshooting and Help
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/한국직업능력교육원-안산-285003932223836/">
+              <i class="icon-social-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/sygy16">
+              <i class="icon-social-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="http://www.job123.kr/">
+              <i class="icon-trophy"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; jo yong hun 2019</p>
+      </div>
+    </footer>
 
-Start Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap.
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
 
-**[Click here to join the Slack channel!](https://startbootstrap-slack.herokuapp.com/)**
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-## Bugs and Issues
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/stylish-portfolio/).
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
 
-## About
+  </body>
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/gh-pages/LICENSE) license.
+</html>
